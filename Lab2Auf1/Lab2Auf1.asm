@@ -38,7 +38,7 @@ setup:
 	ldi r16, CS01
 	out TCCR0B, r16
 
-	ldi r16, 0x05 ;Helligkeit einstellen
+	ldi r16, 0xf0 ;Helligkeit einstellen
 	out OCR0A, r16
 	
 main:

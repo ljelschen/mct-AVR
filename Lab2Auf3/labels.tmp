@@ -23,10 +23,10 @@
   <main><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>52</LINE></main>
   <clrTimer><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>70</LINE></clrTimer>
   <auswertung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>56</LINE></auswertung>
-  <sw_directions><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>96</LINE></sw_directions>
-  <add_brightness><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>89</LINE></add_brightness>
-  <end_fade><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>83</LINE></end_fade>
-  <fade_out><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>107</LINE></fade_out>
-  <fade_in><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>103</LINE></fade_in>
+  <sw_directions><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>98</LINE></sw_directions>
+  <add_brightness><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>91</LINE></add_brightness>
+  <end_fade><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>85</LINE></end_fade>
+  <fade_out><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>114</LINE></fade_out>
+  <fade_in><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm</FILE><LINE>109</LINE></fade_in>
  </LABELS>
 </ASSEMBLER_INFO>

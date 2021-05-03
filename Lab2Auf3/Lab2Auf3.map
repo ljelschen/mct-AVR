@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm Mon May 03 17:06:15 2021
+AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm Mon May 03 18:20:32 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -700,5 +700,5 @@ CSEG auswertung   00000042
 CSEG sw_directions 00000052
 CSEG add_brightness 0000004f
 CSEG end_fade     0000004b
-CSEG fade_out     00000059
+CSEG fade_out     0000005a
 CSEG fade_in      00000057

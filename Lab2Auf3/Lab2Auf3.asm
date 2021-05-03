@@ -108,9 +108,11 @@ sw_directions: ; reach after 1s
 
 fade_in:
     ldi r18, 0<<0 ; change the bit 0 to 0 from the r18(brightness) reg.
+    ldi r17, 0
    	rjmp main ; jmp back to main
 
 fade_out:
     ldi r18, 1<<0 ;change the bit 0 to 1 from the r18(brightness) reg.
+    ldi r17, 255
    	rjmp main ; jmp back to main
 
