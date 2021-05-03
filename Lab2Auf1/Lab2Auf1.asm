@@ -38,10 +38,9 @@ setup:
 	ldi r16, CS01
 	out TCCR0B, r16
 
-	ldi r16, 0xF0 ;Helligkeit einstellen
+	ldi r16, 0x05 ;Helligkeit einstellen
 	out OCR0A, r16
-
-
+	
 main:
 rjmp main
 

@@ -89,4 +89,3 @@ LED_OFF:
 	cbi PORTB, LED1 ; set the LED Bit to 0
 	clr r25	; clear the register 
 	rjmp main ; jmp back to main
-
