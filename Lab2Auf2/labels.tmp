@@ -20,11 +20,11 @@
  </OUTPUT_FILES>
  <LABELS>
   <setup><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>23</LINE></setup>
-  <main><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>49</LINE></main>
-  <clrTimer><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>68</LINE></clrTimer>
-  <auswertung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>53</LINE></auswertung>
-  <LED_Toggle><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>74</LINE></LED_Toggle>
-  <LED_ON><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>83</LINE></LED_ON>
-  <LED_OFF><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>88</LINE></LED_OFF>
+  <main><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>45</LINE></main>
+  <clrTimer><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>64</LINE></clrTimer>
+  <auswertung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>49</LINE></auswertung>
+  <LED_Toggle><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>70</LINE></LED_Toggle>
+  <LED_ON><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>79</LINE></LED_ON>
+  <LED_OFF><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm</FILE><LINE>84</LINE></LED_OFF>
  </LABELS>
 </ASSEMBLER_INFO>

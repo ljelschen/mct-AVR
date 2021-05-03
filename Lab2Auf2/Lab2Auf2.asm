@@ -42,10 +42,6 @@ setup:
 	;ldi r16, 1<<CS00 
 	out TCCR0B, r16
 
-;	ldi r16, 0x00 ;Helligkeit einstellen
-;	out OCR0A, r16
-
-
 main:
 	sbic TIFR0, 0 ; skip if not Timer0 Flag
 	rjmp clrTimer ; if timer0 Flag is on jmp to clrTimer

@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf2\Lab2Auf2.asm Mon May 03 17:39:59 2021
+AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab2Auf3\Lab2Auf3.asm Mon May 03 17:06:15 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -694,9 +694,11 @@ EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 CSEG setup        00000032
-CSEG main         0000003e
-CSEG clrTimer     00000044
-CSEG auswertung   00000040
-CSEG LED_Toggle   00000047
-CSEG LED_ON       0000004b
-CSEG LED_OFF      0000004e
+CSEG main         00000040
+CSEG clrTimer     00000046
+CSEG auswertung   00000042
+CSEG sw_directions 00000052
+CSEG add_brightness 0000004f
+CSEG end_fade     0000004b
+CSEG fade_out     00000059
+CSEG fade_in      00000057
