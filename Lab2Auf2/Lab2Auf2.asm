@@ -12,7 +12,7 @@
 .include "m328pdef.inc"
 
 ;define outputs
-#define LED1 0
+#define LED1 5
 
 .org 0x00
 	jmp setup
