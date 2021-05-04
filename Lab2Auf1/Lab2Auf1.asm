@@ -21,7 +21,7 @@
 
 
 setup:
-;---------------- Stack Initialisirung
+;---------------- Stack Initialisirung 🤢
 	ldi r16, HIGH(RAMEND)
 	out SPH, r16
 	ldi r16, LOW(RAMEND)
