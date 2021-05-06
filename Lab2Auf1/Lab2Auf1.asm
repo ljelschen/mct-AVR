@@ -30,13 +30,14 @@ setup:
 
 	; set output for the timer and fast PWM
 	ldi r16, 1<<COM0A1 | 1<<WGM00 | 1<<WGM01
- 	out TCCR0A, r16
+ 	out TCCR0A, r16 ;save the parameters to the timer reg.
 
-	ldi r16, CS01 
-	out TCCR0B, r16
+	ldi r16, CS01 ; activates the timer one
+	out TCCR0B, r16 ;save the parameters to the timer reg.
 
-	ldi r16, 1 ;Helligkeit einstellen
-	out OCR0A, r16
+;------- set the LED Brightness -----
+	ldi r16, 1 ; YOU CAN SET HERE THE BRIGHTNESS FOR THE LED | 0 = 0% -- 255 = 100%
+	out OCR0A, r16 ;set the PWM Signal 
 	
 main:
 rjmp main
