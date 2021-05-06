@@ -32,7 +32,7 @@ setup:
 	ldi r16, 1<<COM0A1 | 1<<WGM00 | 1<<WGM01
  	out TCCR0A, r16 ;save the parameters to the timer reg.
 
-	ldi r16, CS01 ; activates the timer one
+	ldi r16, 1<<CS01 ; activates the timer one
 	out TCCR0B, r16 ;save the parameters to the timer reg.
 
 ;------- set the LED Brightness -----
