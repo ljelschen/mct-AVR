@@ -7,15 +7,12 @@
 .org 0x00
 	jmp reset
 
-.org 0x32
-
 reset:
-
 ; ---------------- Stack Initialisirung
-	; ldi r16, HIGH(RAMEND)
-	; out SPH, r16
-	; ldi r16, LOW(RAMEND)
-	; out SPL, r16
+	ldi r16, HIGH(RAMEND)
+	out SPH, r16
+	ldi r16, LOW(RAMEND)
+	out SPL, r16''
 
 ; ---------------- Eingangs Pins Initialisierung
 	cbi DDRD,2	; Pin D2 Input

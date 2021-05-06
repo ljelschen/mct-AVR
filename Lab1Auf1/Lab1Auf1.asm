@@ -22,8 +22,6 @@
 .org 0x00
 	jmp setup
 
-.org 0x32						;start the programm at bit 0
-
 setup:
 ;---------------- Stack Initialisirung
 	ldi r16, HIGH(RAMEND)
@@ -38,7 +36,6 @@ main:
 	sbi PORTB, LED1 			; set LED 1 on
 	sbi PORTB, LED2 			; set LED 2 on
 	sbi PORTB, LED3 			; set LED 3 on
-
 
 stop:
 	nop 					; loop no operation to prevent flickering of the leds
