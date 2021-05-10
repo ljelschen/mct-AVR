@@ -19,7 +19,7 @@
 	jmp setup
 
 setup:
-;---------------- Stack Init. 🤢
+;---------------- Stack Init. 
 	ldi r16, HIGH(RAMEND)
 	out SPH, r16
 	ldi r16, LOW(RAMEND)
