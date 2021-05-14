@@ -31,7 +31,7 @@ setup:
 	out SPL, r16
 
 	; ouput direction for PROTB / PROTD
-	ldi r16, 1<<PWM_PIN 
+	ldi r16, 0xFF
 	out DDRB, r16
 
 
@@ -99,6 +99,7 @@ PosA:
 	sts TCNT1H, r16 
 	sts TCNT1L, r16
 
+	sbi  PORTB, 0
 	sei
 	ret
 	;Pin ON
@@ -106,6 +107,7 @@ PosA:
 
 PosB:
 	;Pin OFF
+	cbi  PORTB, 0
 	sei
 	ret
 	rjmp main
