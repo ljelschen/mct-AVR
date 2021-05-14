@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf1\Lab3Auf1.asm Mon May 10 17:08:31 2021
+AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf1\Lab3Auf1.asm Fri May 14 14:44:19 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -694,6 +694,6 @@ EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 CSEG setup        0000001a
-CSEG PosA         00000035
-CSEG PosB         0000003c
-CSEG main         00000034
+CSEG PosA         00000037
+CSEG PosB         0000003e
+CSEG main         00000036

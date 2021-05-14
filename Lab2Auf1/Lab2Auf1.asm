@@ -36,10 +36,10 @@ setup:
 	out TCCR0B, r16 ;save the parameters to the timer reg.
 
 ;------- set the LED Brightness -----
-	ldi r16, 255 ;🔥 YOU CAN SET HERE THE BRIGHTNESS FOR THE LED | 0 = 0% -- 255 = 100% 
+	ldi r16, 255 ; YOU CAN SET HERE THE BRIGHTNESS FOR THE LED | 0 = 0% -- 255 = 100% 
 	out OCR0A, r16 ;set the PWM Signal 
 	
-main: 		; ⬇️
-rjmp main	; ⬆️
+main: 	
+rjmp main	
 
 

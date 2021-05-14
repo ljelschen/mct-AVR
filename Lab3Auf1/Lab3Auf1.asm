@@ -12,7 +12,7 @@
 .include "m328pdef.inc"
 
 ;define outputs
-#define PWM_PIN 9 ; bit PD6
+#define PWM_PIN 1 ; bit PB1
 
 .org 0x0000 ; save the Programm at flash address 0
 	jmp setup
@@ -31,8 +31,8 @@ setup:
 	out SPL, r16
 
 	; ouput direction for PROTB / PROTD
-	;ldi r16, 1<<PWM_PIN 
-	;out DDRB, r16
+	ldi r16, 1<<PWM_PIN 
+	out DDRB, r16
 
 
 	; ist für die on Zeit (281) 

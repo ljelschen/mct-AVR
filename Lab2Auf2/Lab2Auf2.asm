@@ -13,7 +13,6 @@
 
 ;define outputs
 #define LED1 5 ; bit PB5 
-#define TIMER_PIN 6 ; bit PD6
 
 .org 0x00 ; save the Programm at flash address 0
 	jmp setup
@@ -24,10 +23,6 @@ setup:
 	out SPH, r16
 	ldi r16, LOW(RAMEND)
 	out SPL, r16
-	
-	; ouput direction for PROTB / PROTD
-	ldi r16, 1<<TIMER_PIN
-	out DDRD, r16
 
 	; set the internal LED to a Output
 	ldi r16, 1<<LED1
