@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>17</LINE></init>
+  <loop><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>26</LINE></loop>
+  <loop1><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>28</LINE></loop1>
+  <loop2><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>36</LINE></loop2>
+  <servoPuls><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>44</LINE></servoPuls>
+  <wait_puls><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>75</LINE></wait_puls>
+  <wait_pause><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>58</LINE></wait_pause>
+  <w_paus_1><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>60</LINE></w_paus_1>
+  <wait_1ms><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>65</LINE></wait_1ms>
+  <w_loop2><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>66</LINE></w_loop2>
+  <w_loop1><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>67</LINE></w_loop1>
+  <w_loop4><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>76</LINE></w_loop4>
+  <w_loop3><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Servo\Lab3Servo.asm</FILE><LINE>77</LINE></w_loop3>
+ </LABELS>
+</ASSEMBLER_INFO>

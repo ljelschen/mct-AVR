@@ -44,7 +44,7 @@ setup:
 
 	; ist für die on Zeit (31) 
 	ldi r16, 0b00000000  ;setze die oberen 8 bit
-	ldi r17, 0b00011111 ;setze die unteren 8 bit
+	ldi r17, 62 ;setze die unteren 8 bit
 	sts OCR1BH, r16 
 	sts OCR1BL, r17
 
