@@ -44,8 +44,8 @@ setup:
 	sts TCCR1B, r16 ; save the parameters to the timer reg.
 
 	; 16.000.000 Takte/s * 0.02 s = 320.000 Takte entsprechen 20ms
-	; 320.000 Takte  / 8 Clock = 40.000 x zÃ¤hlen wenn der ZÃ¤hler auf 8 steht
-	; 40.000 in BinÃ¤r  = 1001 1100 0100 0000
+	; 320.000 Takte  / 8 Clock = 40.000 x zählen wenn der Zähler auf 8 steht
+	; 40.000 in Binär  = 1001 1100 0100 0000
 	; 2000 bis 4000 ist steuerbereicht und der rest ist pause (38.000 - 36.000)
 	;
 	;	 2000 - 4000 Takte						  PosA	   PosB
@@ -69,7 +69,7 @@ setup:
 
 
 	ldi r16, 0b00001111  ;setze die oberen 8 bit
-	ldi r17, 0b10100000 ;setze die unteren 8 bitÂ´
+	ldi r17, 0b10100000 ;setze die unteren 8 bit´
 	sts OCR1AH, r16 
 	sts OCR1AL, r17
 
@@ -97,7 +97,7 @@ main:
 
 PosA:
 	
-	; ist fÃ¼r die on Zeit (variable)
+	; ist für die on Zeit (variable)
 	ldi r16, 0x07 ;setze die oberen 8 bit
 	ldi r17, 0xD0 ;setze die unteren 8 bit
 	sts ICR1H, r16 
@@ -114,7 +114,7 @@ PosB:
 	;Pin OFF
 
 
-	;ende des Pulses bei (40.000 ZÃ¤hleinheiten)
+	;ende des Pulses bei (40.000 Zähleinheiten)
 	ldi r16, 0x9C  ;setze die oberen 8 bit
 	ldi r17, 0x80;setze die unteren 8 bit
 	sts ICR1H, r16 
@@ -126,5 +126,4 @@ PosB:
 	sei
 	ret
 	rjmp main
-
 
