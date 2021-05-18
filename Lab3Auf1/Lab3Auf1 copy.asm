@@ -96,15 +96,7 @@ main:
 
 
 PosA:
-	
-	; ist für die on Zeit (variable)
-	ldi r16, 0x07 ;setze die oberen 8 bit
-	ldi r17, 0xD0 ;setze die unteren 8 bit
-	sts ICR1H, r16 
-	sts ICR1L, r17
 
-	ldi r16, 0xFF         ; Ausgabepin auf 1
-	out PORTD, r16
 	sei
 	ret
 	;Pin ON
@@ -113,16 +105,6 @@ PosA:
 PosB:
 	;Pin OFF
 
-
-	;ende des Pulses bei (40.000 Zähleinheiten)
-	ldi r16, 0x9C  ;setze die oberen 8 bit
-	ldi r17, 0x80;setze die unteren 8 bit
-	sts ICR1H, r16 
-	sts ICR1L, r17
-
-
-	ldi r16, 0x00         ; Ausgabepin wieder auf 0
-	out PORTD, r16
 	sei
 	ret
 	rjmp main
