@@ -95,9 +95,9 @@ main:
 
 PosA:
 
-	ldi r16, 0  
-	sts TCNT1H, r16 
-	sts TCNT1L, r16
+	;ldi r16, 0  
+	;sts TCNT1H, r16 
+	;sts TCNT1L, r16
 
 	sbi  PORTB, 0
 	sei

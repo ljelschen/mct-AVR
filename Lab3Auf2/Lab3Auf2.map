@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2.asm Sat May 15 22:05:25 2021
+AVRASM ver. 2.1.42  C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2.asm Mon May 17 14:05:55 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -694,8 +694,18 @@ EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 CSEG setup        00000022
-CSEG Timer0Interrupt 00000034
-CSEG LauflichtAus 00000039
-CSEG main         00000033
-CSEG LauflichtEin 0000003c
-CSEG LauflichtWeiter 00000044
+CSEG Timer0Interrupt 0000003a
+CSEG LauflichtAus 0000004f
+CSEG main         00000037
+CSEG ButtonEntprellen 0000003e
+CSEG LauflichtCheckState 0000004b
+CSEG Toggle       00000041
+CSEG ToggleOn     00000045
+CSEG ToggleOff    00000048
+CSEG LauflichtEin 00000052
+CSEG LauflichtWeiter 00000058
+CSEG resetR21     0000005d
+CSEG LauflichtPortB 00000060
+CSEG LauflichtPortD 0000006c
+CSEG LauflichtPortB1 00000067
+CSEG LauflichtPortB2 00000069
