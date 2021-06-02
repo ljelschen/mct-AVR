@@ -1,9 +1,10 @@
+; Titel: Assmebler Labor 3 Aufgabe 1
+; Laborgruppe: A9
+; 
+; Lars Jelschen, Matrikelnummer: 5100174
+; Marvin Klusmeyer, Matrikelnummer: 5093298
 ;
-; Lab3Auf1.asm
-;
-; Created: 2021-06-01 11:50:13
-; Author : Lars
-;
+; Anprechpartner: ljelschen@hs-bremen.de
 
 
 .include "m328pdef.inc"
