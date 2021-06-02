@@ -1,2 +1,0 @@
-@ECHO OFF
-"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\debunce.hex" -d "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\debunce.obj" -e "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\debunce.eep" -m "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\debunce.map" "C:\Users\Lars\Documents\Studium\4. Semester\MCT\code\debunce\debunce.asm"

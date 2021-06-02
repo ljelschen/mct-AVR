@@ -1,0 +1,45 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>F:/Atmel\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>F:\Atmel\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>F:/Atmel\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>F:/Atmel\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\Debug\Lab3Auf2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab3Auf2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab3Auf2.map</FILE>
+  <FILE>Lab3Auf2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <setup><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>27</LINE></setup>
+  <Timer0Interrupt><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>88</LINE></Timer0Interrupt>
+  <LauflichtAus><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>165</LINE></LauflichtAus>
+  <main><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>81</LINE></main>
+  <ButtonEntprellen><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>110</LINE></ButtonEntprellen>
+  <LauflichtCheckState><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>158</LINE></LauflichtCheckState>
+  <Einschaltverzoegerung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>138</LINE></Einschaltverzoegerung>
+  <Ausschaltverzoegerung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>145</LINE></Ausschaltverzoegerung>
+  <Toggle><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>118</LINE></Toggle>
+  <ToggleOn><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>123</LINE></ToggleOn>
+  <ToggleOff><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>133</LINE></ToggleOff>
+  <MaschineAUS><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>151</LINE></MaschineAUS>
+  <LauflichtEin><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>170</LINE></LauflichtEin>
+  <resetPorts><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>221</LINE></resetPorts>
+  <LauflichtRichtung><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>179</LINE></LauflichtRichtung>
+  <LauflichtSet><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>199</LINE></LauflichtSet>
+  <LauflichtVor><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>184</LINE></LauflichtVor>
+  <LauflichtZur><FILE>C:\Users\Lars\Documents\Studium\4. Semester\MCT\mtclabor\mtc\Lab3Auf2\Lab3Auf2\main.asm</FILE><LINE>191</LINE></LauflichtZur>
+ </LABELS>
+</ASSEMBLER_INFO>

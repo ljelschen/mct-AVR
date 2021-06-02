@@ -1,6 +1,6 @@
 @echo off
 
-set PORT="COM3"
+set PORT="COM5"
 set CHIP="atmega328p"
 
 set ASMFILE=%1
