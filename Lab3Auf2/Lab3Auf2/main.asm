@@ -184,7 +184,7 @@ LauflichtAus:
 ret
 
 LauflichtEin:
-	if Lauflicht != Aus
+	;if Lauflicht != Aus
 	cpi r24, 0 
 	;  springe wenn Lauflicht ein Zu Lauflicht weiter
 	brne LauflichtRichtung 
